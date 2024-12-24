@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+
+
+body{
+    font-family: "Poppins", serif;
+}
+
+.header_color{
+    background-color: rgba(34, 34, 34, 1) !important;  
+}
+
+.background{
+    background-color: rgba(25, 25, 25, 1);
+
+    .container{
+        max-width: 850px;
+        margin: 0 auto;
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 256px;
+
+    .menu{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        gap: 71px;
+
+        li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 1);
+            font-family: Plus Jakarta Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.9px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+&:hover{
+    color: rgb(191, 194, 197);
+}
+        }
+
+      
+        }
+    }
+}
+
+section{
+    .My_portfolio{
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        object-fit: cover;
+       
+    }
+
+   
+.section{
+    text-align: center;
+padding-top: 106px;
+margin: auto;
+
+        
+    .px_55{
+            width: 78%;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 63.36px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        padding-top: 40px;
+        margin: auto;
+    
+        .span{
+            text-align: center;
+            color: rgba(255, 134, 96, 1);
+                }
+        
+              
+            }
+
+           
+            .px_18{
+               margin: auto;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+letter-spacing: 0.02em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(197, 197, 197, 1);
+            }
+
+            .full-stack{
+                width: 80%;
+                padding: 39px 0 54px 0;
+            }
+
+            .px_21{
+                
+font-size: 21.38px;
+font-weight: 600;
+line-height: 32.07px;
+text-align: left;
+            }
+            button{
+                padding: 15px 29px;
+                border-radius: 50px;
+                &:hover{
+                    cursor: pointer;
+                    transition: all .3s ease;
+                }
+            }
+
+            .get{
+                background-color: rgba(255, 255, 255, 1);
+                &:hover{
+                    background-color: rgb(205, 215, 225);
+                }
+
+                .getintouch{
+                    color: rgba(25, 25, 25, 1);
+                    text-decoration: none;
+                }
+            }
+            .download-btn{
+                text-decoration: none;
+color: rgba(255, 255, 255, 1);
+
+            }
+            .cv{
+                background-color: transparent;
+                color: rgba(255, 255, 255, 1);
+                &:hover{
+                    background-color: rgb(54, 50, 50);
+                }
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            h2{
+                color: rgba(197, 197, 197, 1);
+                font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0.12em;
+text-align: center;
+padding-top: 88px;
+
+            }
+         .experiences{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            padding-top: 50px;
+         }   
+
+         .px_35{
+            background: linear-gradient(180deg, #FF8660 0%, #D5491D 100%);
+            -webkit-background-clip: text; /* For Safari */
+            background-clip: text; /* For other browsers */
+            color: transparent; 
+text-transform: uppercase;
+font-size: 35px;
+font-weight: 800;
+line-height: 35.75px;
+padding: 100px 0 27px 0;
+}
+
+.tutorials{
+    padding-bottom: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+    .for_division{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 165px;
+    }
+
+    p{
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    a{
+        text-align: left;
+    }
+.px_10{
+    color: rgba(197, 197, 197, 1);
+font-size: 10px;
+font-weight: 800;
+line-height: 19px;
+text-align: left;
+padding-top: 12px;
+
+}
+.px_18{
+    font-family: Poppins;
+font-size: 19px;
+font-weight: 800;
+line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+    .html{
+        background-color: rgba(42, 42, 42, 1);
+        border-radius: 18px;
+        display: inline-block;
+        a{
+            text-align: left;
+        }
+
+        &:hover{
+            scale: 1.01;
+            transition: all .4s ease-in-out;
+            cursor: pointer;
+        }
+
+        .view:hover{
+        // fill: rgb(79, 86, 93);
+        scale: 1.1;
+        }
+    }
+
+    .css{
+        background-color: rgba(42, 42, 42, 1);
+        border-radius: 18px;
+        display: inline-block;
+
+        a{
+            padding-left: 23px;
+        }
+        p{
+            padding-left: 23px;
+
+        }
+
+        &:hover{
+            scale: 1.01;
+            transition: all .4s ease-in-out;
+            cursor: pointer;
+        }
+
+        .view:hover{
+        // fill: rgb(79, 86, 93);
+        scale: 1.1;
+        }
+    }
+
+  
+}
+.experience{
+    padding-top: 0;
+    background: linear-gradient(180deg, #5BADFF 0%, #1373D1 100%);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text; /* For other browsers */
+    color: transparent; 
+text-transform: uppercase;
+font-size: 35px;
+font-weight: 800;
+line-height: 35.75px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+  
+
+    .px_14{
+        color: rgba(132, 145, 160, 1);
+        font-family: Poppins;
+        font-size: 14.49px;
+        font-weight: 400;
+        line-height: 21.74px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+     }
+
+    .present{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    gap: 10px;
+  
+
+    .lead{
+font-size: 21.74px;
+font-weight: 700;
+line-height: 32.61px;
+text-align: center;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+    }
+
+    
+    }
+
+    .px_14{
+color: rgba(132, 145, 160, 1);
+font-size: 14.49px;
+font-weight: 400;
+line-height: 21.74px;
+    }
+}
+
+.senior  {
+    color: rgba(132, 145, 160, 1);
+    width: 98%;
+font-size: 14.49px;
+font-weight: 400;
+line-height: 21.74px;
+text-align: start;
+margin: auto;
+padding-bottom: 50px;
+
+}
+
+
+.meta{
+    padding-top: 50px;
+ }
+ 
+.last{
+padding-bottom: 110px;
+}
+
+
+} 
+
+
+    }
+
+}
+}
+
+
+.background_2{
+    background-color: rgba(34, 34, 34, 1) !important;  
+
+
+    .container{
+        max-width: 850px;
+        margin: auto;
+    }
+    footer{
+        padding-top: 80px;
+        .px_23{
+            font-family: Poppins;
+    font-size: 23.53px;
+    font-weight: 700;
+    line-height: 35.29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+        }
+
+        .px_14{
+            color: rgba(197, 197, 197, 1);
+            font-family: Poppins;
+font-size: 14.12px;
+font-weight: 300;
+line-height: 21.17px;
+letter-spacing: 0.02em;
+text-align: left;
+padding-top: 35px;
+width: 80%;
+        }
+
+        .email{
+            padding-top: 25px;
+ display: flex;
+ gap: 5px;
+            .px_15{
+                color: rgba(197, 197, 197, 1);
+                font-family: Poppins;
+font-size: 14.12px;
+font-weight: 600;
+line-height: 21.17px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-decoration: none;
+&:hover{
+    color: aliceblue;
+}
+            }
+        }
+
+        .social_media{
+            padding: 45px 0 100px 0;
+            display: flex;
+            gap: 27px;
+        }
+    }
+    
+}

@@ -26,12 +26,37 @@ body {
   align-items: center;
   gap: 256px;
 }
+@media (max-width: 860px) {
+  .background .container header {
+    gap: 150px;
+  }
+}
+@media (max-width: 860px) {
+  .background .container header {
+    gap: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .background .container header {
+    gap: 150px;
+  }
+}
 .background .container header .menu {
   display: none;
+}
+@media (max-width: 640px) {
+  .background .container header .menu {
+    display: block;
+  }
 }
 .background .container header ul {
   display: flex;
   gap: 71px;
+}
+@media (max-width: 640px) {
+  .background .container header ul {
+    display: none;
+  }
 }
 .background .container header ul li {
   list-style: none;
@@ -168,6 +193,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .background .container section .section .tutorials .for_division {
   display: flex;
@@ -250,6 +276,11 @@ body {
   padding-bottom: 25px;
   padding-top: 50px;
 }
+@media (max-width: 930px) {
+  .background .container section .section .main {
+    justify-content: space-around;
+  }
+}
 .background .container section .section .main .px_14 {
   color: rgb(132, 145, 160);
   font-family: Poppins;
@@ -292,6 +323,11 @@ body {
   margin: auto;
   padding-bottom: 50px;
 }
+@media (max-width: 690px) {
+  .background .container section .section .senior {
+    max-width: 90%;
+  }
+}
 .background .container section .section .meta {
   padding-top: 50px;
 }
@@ -309,6 +345,11 @@ body {
 .background_2 footer {
   padding-top: 80px;
 }
+@media (max-width: 890px) {
+  .background_2 footer {
+    padding-left: 70px;
+  }
+}
 .background_2 footer .px_23 {
   font-family: Poppins;
   font-size: 23.53px;
@@ -317,6 +358,11 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: rgb(255, 255, 255);
+}
+@media (max-width: 890px) {
+  .background_2 footer .px_23 {
+    text-align: center;
+  }
 }
 .background_2 footer .px_14 {
   color: rgb(197, 197, 197);
@@ -329,10 +375,20 @@ body {
   padding-top: 35px;
   width: 80%;
 }
+@media (max-width: 890px) {
+  .background_2 footer .px_14 {
+    text-align: center;
+  }
+}
 .background_2 footer .email {
   padding-top: 25px;
   display: flex;
   gap: 5px;
+}
+@media (max-width: 890px) {
+  .background_2 footer .email {
+    text-align: center;
+  }
 }
 .background_2 footer .email .px_15 {
   color: rgb(197, 197, 197);

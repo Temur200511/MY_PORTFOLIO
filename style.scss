@@ -27,15 +27,31 @@ header{
     justify-content: center;
     align-items: center;
     gap: 256px;
+    @media(max-width:860px){
+        gap: 150px;   
+       }
+
+       @media(max-width:860px){
+        gap: 50px;   
+       }
+
+       @media(max-width:640px){
+       gap: 150px;
+       }
 
     .menu{
         display: none;
+        @media(max-width:640px){
+            display: block;
+           }
     }
 
     ul{
         display: flex;
         gap: 71px;
-
+        @media(max-width:640px){
+            display: none;
+           }
         li{
         list-style: none;
 
@@ -194,6 +210,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 30px;
+flex-wrap: wrap;
     .for_division{
         display: flex;
         align-items: center;
@@ -290,6 +307,9 @@ line-height: 35.75px;
     padding-bottom: 25px;
     padding-top: 50px;
   
+    @media (max-width: 930px){
+        justify-content: space-around;
+    }
 
     .px_14{
         color: rgba(132, 145, 160, 1);
@@ -340,6 +360,10 @@ text-align: start;
 margin: auto;
 padding-bottom: 50px;
 
+@media(max-width:690px)
+{
+    max-width: 90%;
+}
 }
 
 
@@ -371,6 +395,10 @@ padding-bottom: 110px;
     }
     footer{
         padding-top: 80px;
+        @media(max-width:890px){
+            padding-left: 70px;   
+           }                        
+
         .px_23{
             font-family: Poppins;
     font-size: 23.53px;
@@ -379,6 +407,11 @@ padding-bottom: 110px;
     letter-spacing: 0.02em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
+
+    
+@media(max-width:890px){
+ text-align: center;   
+}
         }
 
         .px_14{
@@ -391,12 +424,20 @@ letter-spacing: 0.02em;
 text-align: left;
 padding-top: 35px;
 width: 80%;
+@media(max-width:890px){
+    text-align: center;   
+   }
         }
 
         .email{
             padding-top: 25px;
  display: flex;
  gap: 5px;
+
+ @media(max-width:890px){
+    text-align: center;   
+   }
+
             .px_15{
                 color: rgba(197, 197, 197, 1);
                 font-family: Poppins;
@@ -421,4 +462,11 @@ text-decoration: none;
         }
     }
     
+}
+
+
+
+
+@media (max-width:850px){
+
 }

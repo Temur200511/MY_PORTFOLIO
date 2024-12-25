@@ -26,25 +26,35 @@ body {
   align-items: center;
   gap: 256px;
 }
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
+  .background .container header {
+    gap: 180px;
+  }
+}
+@media (max-width: 950px) {
   .background .container header {
     gap: 150px;
   }
 }
 @media (max-width: 860px) {
   .background .container header {
-    gap: 50px;
+    gap: 80px;
   }
 }
 @media (max-width: 640px) {
   .background .container header {
-    gap: 150px;
+    gap: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .background .container header {
+    gap: 120px;
   }
 }
 .background .container header .menu {
   display: none;
 }
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .background .container header .menu {
     display: block;
   }
@@ -53,9 +63,14 @@ body {
   display: flex;
   gap: 71px;
 }
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .background .container header ul {
     display: none;
+  }
+}
+@media (max-width: 860px) {
+  .background .container header ul {
+    gap: 30px;
   }
 }
 .background .container header ul li {
@@ -102,6 +117,7 @@ body {
 .background .container section .section .px_55 .span {
   text-align: center;
   color: rgb(255, 134, 96);
+  font-size: 40px;
 }
 .background .container section .section .px_18 {
   margin: auto;
@@ -175,6 +191,16 @@ body {
   justify-content: center;
   gap: 60px;
   padding-top: 50px;
+}
+@media (max-width: 600px) {
+  .background .container section .section .experiences {
+    gap: 30px;
+  }
+}
+.background .container section .section .experiences a:hover {
+  scale: 1.07;
+  transition: all 0.5s ease;
+  transform: scaleY(1.04);
 }
 .background .container section .section .px_35 {
   background: linear-gradient(180deg, #FF8660 0%, #D5491D 100%);
@@ -279,6 +305,11 @@ body {
 @media (max-width: 930px) {
   .background .container section .section .main {
     justify-content: space-around;
+  }
+}
+@media (max-width: 600px) {
+  .background .container section .section .main {
+    flex-direction: column;
   }
 }
 .background .container section .section .main .px_14 {
